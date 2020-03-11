@@ -1,3 +1,5 @@
+/*Apparition des sous menu*/
+
 #sous-titre-societe {
   display: none;
 }
@@ -22,6 +24,7 @@
 #sous-titre-voyage:target {
   display: block;
 }
+<<<<<<< HEAD
 .feed {
   width: 40%;
   display: flex;
@@ -31,4 +34,49 @@
 }
 
 
+=======
+/*Apparition des sous menu*/
+
+.grostitre ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.grostitre li {
+  margin: 15px;
+  list-style: none;
+}
+.grostitre a {
+  text-decoration: none;
+  color: black;
+}
+.grostitre a:hover {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.menu {
+  background-color: coral;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*footer*/
+footer {
+  background-color: lightgrey;
+  margin: 10px;
+  padding: 10px;
+  font-size: 0.8em;
+}
+.liensFooter {
+  list-style: none;
+  margin: 10px;
+  margin: 0;
+  padding: 0;
+}
+.liensFooter a {
+  text-decoration: none;
+  color: black;
+}
+.liensFooter a:hover {
+  font-weight: bold;
+>>>>>>> d4444fba5ae37f5603f3c12e481c0ee71e4253e2
 }
