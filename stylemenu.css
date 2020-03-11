@@ -24,6 +24,17 @@
 #sous-titre-voyage:target {
   display: block;
 }
+<<<<<<< HEAD
+.feed {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+=======
 /*Apparition des sous menu*/
 
 .grostitre ul li {
@@ -67,4 +78,5 @@ footer {
 }
 .liensFooter a:hover {
   font-weight: bold;
+>>>>>>> d4444fba5ae37f5603f3c12e481c0ee71e4253e2
 }
