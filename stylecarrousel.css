@@ -79,9 +79,10 @@
   }
   
   .carousel {
-    width: 75%;
-    position: relative;
-    padding-top: 75%;
+    width: 80%;
+    height: 200px;
+    position: center;
+    padding-top: 0;
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
   }

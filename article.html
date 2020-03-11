@@ -3,52 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <title>Daily_toulouse</title>
+    <link rel="stylesheet" href="stylemenu.css" />
+    <link rel="stylesheet" href="stylenavbar.css">
   </head>
   <body>
     <header>
-        <div class="navbranding">
-          <div class="navlogo">
-            <img src="TDTlogo.jpg" alt="logo">
+      <div class="navbar">
+          <div class="navcol navbranding">
+            <div class="navlogo">
+              <img src="TDTlogo.jpg" alt="logo">
+            </div>
+            <h1>Daily Toulouse</h1>
           </div>
-          <h1>Daily Toulouse</h1>
-        </div>
-        <div class="navtopright">
-          <div class="navsearch">
-            <input type="text" placeholder="Recherche..">
-          </div>
-          <div class="navavatar">
-            <img src="https://i.pravatar.cc/300" alt="avatar">
+          <div class="navcol navtopright">
+            <div class="navsearch">
+              <input type="text" placeholder="Recherche..">
+            </div>
+            <div class="navavatar">
+              <img src="https://i.pravatar.cc/300" alt="avatar">
+            </div>
           </div>
         </div>
     </header>
-    <section>
-      <div class="widgetscontainer">
-        <div class="widgets">
-          <div class="widget">
-            <script src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE'></script>
-          </div>
-          <div class="widget">
-            <audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio>
-          </div>
-          <div class="widget">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe>
-          </div>
-        </div>
-      </div>
-
-<!--
-  <div class="widget"><script src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE'></script></div>
-  <div class="widget"><audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio></div>
-  <div class="widget"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe></div>
--->
-
-    </section>
+    <section></section>
     <section class="menu">
-      <ul>
+      <ul class="grostitre">
         <li><a href="">A la une</a></li>
         <li>
-          <a href="">Société</a>
-          <ul>
+          <a href="#sous-titre-societe">Société</a>
+          <ul id="sous-titre-societe">
             <li><a href="">Economie</a></li>
             <li><a href="">Education</a></li>
             <li><a href="">Santé</a></li>
@@ -56,8 +39,8 @@
           </ul>
         </li>
         <li>
-          <a href="">Sport</a>
-          <ul>
+          <a href="#sous-titre-sport">Sport</a>
+          <ul id="sous-titre-sport">
             <li><a href="">Rugby</a></li>
             <li><a href="">Football</a></li>
             <li><a href="">Sport-Outdoor</a></li>
@@ -65,8 +48,8 @@
           </ul>
         </li>
         <li>
-          <a href="">Lifestyle</a>
-          <ul>
+          <a href="#sous-titre-lifestyle">Lifestyle</a>
+          <ul id="sous-titre-lifestyle">
             <li><a href="">Gastronomie</a></li>
             <li><a href="">Représentation culturel</a></li>
             <li><a href="">Mode</a></li>
@@ -74,8 +57,8 @@
           </ul>
         </li>
         <li>
-          <a href="">Voyage</a>
-          <ul>
+          <a href="#sous-titre-voyage">Voyage</a>
+          <ul id="sous-titre-voyage">
             <li><a href="">Bon plan Europe</a></li>
             <li><a href="">Bon plan Amérique</a></li>
             <li><a href="">Bon plan Asie</a></li>
@@ -85,7 +68,45 @@
         </li>
       </ul>
     </section>
-    <section></section>
+    <section>
+      <div id="fil">
+        <ul>
+            <li class="first">Accueil
+            <ul>
+                <li>&#187; Société
+                <ul>
+                    <li>&#187; Economie
+                    <ul>
+                        <li>&#187; Titre de l article</li>
+                    </ul></li>
+                </ul></li>
+            </ul></li>
+        </ul>
+        </div> 
+      <article>        
+        <h2>Titre de l'article</h2>
+        <p>date/auteur...</p>
+        <img src="http://via.placeholder.com/250" alt="image d'un sorcier">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, facilis! Labore consequatur sunt tempora excepturi itaque quia enim a praesentium. Consequatur aspernatur soluta neque sapiente voluptates animi architecto alias tempora.</p>
+        <img src="http://via.placeholder.com/250" alt="image d'un sorcier">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, facilis! Labore consequatur sunt tempora excepturi itaque quia enim a praesentium. Consequatur aspernatur soluta neque sapiente voluptates animi architecto alias tempora.</p>
+      </article>
+      <hr/>
+        <div>
+          <label for="emailinput">login</label>
+          <input type="text" name="email" id="emailinput" placeholder="XXXXXX@XXX.XX" required>
+        </div>
+        <div>
+          <label for="passwordinput">Mot de passe</label>
+          <input type="text" name="password" id="passwordinput" placeholder="XXXXXXXXXXX" required>
+        </div>
+        <div>
+          <textarea name="Votre message" id="message" cols="30" rows="10" placeholder="Connectez-vous afin de laisser un commentaire"></textarea>
+        </div>
+        <input id="submit" type="submit" value="Send">
+        <input id="cancel" type="reset" value="Cancel">
+      </form>
+    </section>
     <footer>
       <div>
         <ul>
