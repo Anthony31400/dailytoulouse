@@ -1,0 +1,15 @@
+.feed {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img_s3 {
+    float: left;
+}  
+.p_s3 {
+    text-align: left;
+}
