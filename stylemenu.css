@@ -22,3 +22,13 @@
 #sous-titre-voyage:target {
   display: block;
 }
+.feed {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+}
