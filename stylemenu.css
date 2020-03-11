@@ -1,0 +1,24 @@
+#sous-titre-societe {
+  display: none;
+}
+#sous-titre-societe:target {
+  display: block;
+}
+#sous-titre-sport {
+  display: none;
+}
+#sous-titre-sport:target {
+  display: block;
+}
+#sous-titre-lifestyle {
+  display: none;
+}
+#sous-titre-lifestyle:target {
+  display: block;
+}
+#sous-titre-voyage {
+  display: none;
+}
+#sous-titre-voyage:target {
+  display: block;
+}
