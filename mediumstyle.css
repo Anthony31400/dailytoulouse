@@ -46,18 +46,39 @@
   }
   .menu {
     display: block;
+    background-color: white;
+    margin: 10px;
+  }
+  .menu a,
+  .menu p {
+    color: black;
   }
   .section-menu {
     display: block;
     grid-column-start: 1;
     grid-row-start: 3;
   }
-  .foot {
+  .foot,
+  .menu li:last-child {
     display: none;
   }
   footer {
     display: block;
     grid-column-start: 1;
     grid-row-start: 4;
+  }
+  .rejoindre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .rejoindre p {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .rejoindre a {
+    width: 50%;
+    text-align: center;
   }
 }
