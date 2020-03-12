@@ -7,8 +7,8 @@
   }
   .boutton-menu img {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     margin: 5px;
     padding: 5px;
   }
@@ -36,3 +36,5 @@
     display: block;
   }
 }
+
+  
