@@ -20,6 +20,9 @@
 .boutton-menu img {
   display: none;
 }
+.titrepagelarge {
+  display: none;
+}
 .recherche-profil {
   display: flex;
   align-items: center;
