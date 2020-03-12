@@ -1,47 +1,42 @@
 .feed {
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: 800px;
-    display: flex;
-    scroll-behavior: auto;
-    overflow-y: scroll;
-    overflow-x: unset;
-    border: 1cm;
-    border: solid;;
-    color: black;
-    flex-direction: column;
-    float: right;
-    
-    
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  scroll-behavior: auto;
+  overflow-y: scroll;
+  overflow-x: unset;
+  border: 1cm;
+  border: solid;
+  color: black;
+  flex-direction: column;
+  float: right;
 }
 .article_s3 {
-    float: left;
-    border: black;
-    border: solid;
-    height: 350px;
-    overflow: hidden;
-    margin: 10px;
-    text-align: center;
-    
-    
+  float: left;
+  border: black;
+  border: solid;
+  height: 350px;
+  overflow: hidden;
+  margin: 10px;
+  text-align: center;
 }
 .article_s3:hover {
-background-color: lightgray;
+  background-color: lightgray;
 }
 
-
 .img_s3 {
-    margin-right: 10px;
-    margin-left: 10px;
-    float: left;
-}  
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+}
 
 .p_s3 {
-    text-align: left;
+  text-align: left;
 }
 
 .h2s3 {
-    text-align: center;
+  text-align: center;
 }
