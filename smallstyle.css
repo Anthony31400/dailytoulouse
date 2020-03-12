@@ -4,13 +4,23 @@
 
 .navbar {
   display: flex;
-  background-color: lightblue;
+  background-color: #ecd1d1;
   height: 50px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
+.boutton-menu .burger {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  padding: 5px;
+}
 .boutton-menu img {
+  display: none;
+}
+.titrepagelarge {
   display: none;
 }
 .recherche-profil {
@@ -24,6 +34,13 @@
 #search:target {
   display: block;
   height: 1.1em;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .caroussel {
