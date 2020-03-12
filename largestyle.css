@@ -1,4 +1,7 @@
 @media screen and (min-width: 961px) {
+  .navbar {
+    background-color: #e58080;
+  }
   .feed {
     width: 60%;
   }
@@ -6,6 +9,12 @@
   .footer,
   .caroussel {
     width: 20%;
+  }
+  .boutton-menu img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
   }
   .caroussel {
     flex-direction: column;
