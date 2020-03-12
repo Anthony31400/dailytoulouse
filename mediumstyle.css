@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+  .navbar {
+    background-color: lightgreen;
+  }
+  #search {
+    display: block;
+  }
+  .boutton-menu img {
+    display: block;
+  }
+  .boutton-menu label {
+    display: none;
+  }
+
+  .feed {
+    width: 65%;
+    float: right;
+  }
+  .menu {
+    display: inline-block;
+    width: 30%;
+  }
+  .foot {
+    display: none;
+  }
+  footer {
+    display: block;
+  }
+}
