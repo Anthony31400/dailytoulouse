@@ -1,249 +1,123 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Daily_toulouse</title>
-    <link rel="stylesheet" href="stylecarrousel.css">
-    <link rel="stylesheet" href="stylemenu.css" >
-    <link rel="stylesheet" href="stylenavbar.css">
-    <link rel="stylesheet" href="stylesheetfeed.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="smallstyle.css" />
+    <link rel="stylesheet" href="mediumstyle.css" />
+    <link rel="stylesheet" href="largestyle.css" />
+    <title>Daily Toulouse</title>
   </head>
-  <body>
+  <body id="vierge">
     <header>
-      <div class="navbar">
-          <div class="navcol navbranding">
-            <div class="navlogo">
-              <img src="TDTlogo.jpg" alt="logo">
-            </div>
-            <h1>Daily Toulouse</h1>
-          </div>
-          <div class="navcol navtopright">
-            <div class="navsearch">
-              <input type="text" placeholder="Recherche..">
-            </div>
-            <div class="navavatar">
-              <img src="https://i.pravatar.cc/300" alt="avatar">
-            </div>
-          </div>
+      <nav class="navbar">
+        <div class="boutton-menu">
+          <label for="menu-box" id="bouttonMenu">menu</label>
+          <img src="" alt="logo" />
+        </div>
+        <div class="titrepage">
+          <img src="https://via.placeholder.com/90x45" alt="" />
+        </div>
+        <div class="recherche-profil">
+          <input type="text" placeholder="search..." id="search" />
+          <a href="#search">
+            <img src="https://via.placeholder.com/45" alt="" />
+          </a>
+          <img src="https://via.placeholder.com/45" alt="" />
+        </div>
+      </nav>
+    </header>
+    <section class="caroussel">
+      <div class="widget 1">
+        <script src="http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE"></script>
       </div>
-  </header>
-    <section>
-      <div class="carousel" aria-label="Gallery">
-        <ol class="carousel__viewport">
-          <li id="carousel__slide1"
-              tabindex="0"
-              class="carousel__slide">
-            <div class="carousel__snapper">
-              <script src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE'></script>
-            </div>
-            <a href="#carousel__slide3"
-              class="carousel__prev">Go to last slide</a>
-            <a href="#carousel__slide2"
-                 class="carousel__next">Go to next slide</a>
-          </li>
-          <li id="carousel__slide2"
-              tabindex="0"
-              class="carousel__slide">
-            <div class="carousel__snapper">
-              <audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio>
-            </div>
-            <a href="#carousel__slide1"
-               class="carousel__prev">Go to previous slide</a>
-            <a href="#carousel__slide3"
-               class="carousel__next">Go to next slide</a>
-          </li>
-          <li id="carousel__slide3"
-              tabindex="0"
-              class="carousel__slide">
-            <div class="carousel__snapper">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe>
-            </div>
-            <a href="#carousel__slide2"
-               class="carousel__prev">Go to previous slide</a>
-            <a href="#carousel__slide1"
-               class="carousel__next">Go to first slide</a>
-          </li>
-        </ol>
-        <aside class="carousel__navigation">
-          <ol class="carousel__navigation-list">
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide1"
-                 class="carousel__navigation-button">Go to slide 1</a>
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide2"
-                 class="carousel__navigation-button">Go to slide 2</a>
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide3"
-                 class="carousel__navigation-button">Go to slide 3</a>
-            </li>
-          </ol>
-        </aside>
+      <div class="widget 2">
+        <audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio>
       </div>
-<!--
-  <div class="widget"><script src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE'></script></div>
-  <div class="widget"><audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio></div>
-  <div class="widget"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe></div>
--->
+      <div class="widget 3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe>
+      </div>
+      <div class="widget 4">
+        <img src="https://via.placeholder.com/200" alt="" />
+      </div>
     </section>
-    <section class="menu">
-      <ul class="grostitre">
+    <section class="feed">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
+    <section>
+      <input type="checkbox" id="menu-box" />
+      <ul class="menu">
         <li><a href="">A la une</a></li>
         <li>
-          <a href="#sous-titre-societe" id="titreSociete">Société</a>
-          <ul id="sous-titre-societe">
-            <li>
-              <a href="">Economie</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Education</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Santé</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Justice</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
+          <a href="">societe</a>
+          <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+            <li>menu4</li>
           </ul>
         </li>
         <li>
-          <a href="#sous-titre-sport" id="titreSport">Sport</a>
-          <ul id="sous-titre-sport">
-            <li>
-              <a href="">Rugby</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Football</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Sport-Outdoor</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Sport-Urbain</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
+          <a href="">sport</a>
+          <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+            <li>menu4</li>
           </ul>
         </li>
         <li>
-          <a href="#sous-titre-lifestyle" id="titreLifestyle">Lifestyle</a>
-          <ul id="sous-titre-lifestyle">
-            <li>
-              <a href="">Gastronomie</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Représentation culturel</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Mode</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Evènement</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
+          <a href="">lifestyle</a>
+          <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+            <li>menu4</li>
           </ul>
         </li>
         <li>
-          <a href="#sous-titre-voyage" id="titreVoyage">Voyage</a>
-          <ul id="sous-titre-voyage">
-            <li>
-              <a href="">Bon plan Europe</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Bon plan Amérique</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Bon plan Asie</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Bon plan Afrique</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
-            <li>
-              <a href="">Bon plan Océanie</a>
-              <button class="bouttonFollowSousMenu">Follow</button>
-            </li>
+          <a href="">voyage</a>
+          <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+            <li>menu4</li>
           </ul>
+        </li>
+        <li class="foot"><a href="">Qui sommes nous</a></li>
+        <li class="foot"><a href="">Nous contacter</a></li>
+        <li class="foot"><a href="">FAQ</a></li>
+        <li class="foot"><a href="">Recrutement</a></li>
+        <li class="foot"><a href="">Mentions légale</a></li>
+        <li class="foot">
+          <p>faire un don</p>
+          <button>Don</button>
+        </li>
+        <li class="foot">
+          <p>rejoignez-nous</p>
+          <a href=""
+            ><img src="img/logofacebook.png" alt="Liens Facebook" width="20"
+          /></a>
+          <img src="img/logotwitter.png" alt="Liens twitter" width="20" />
         </li>
       </ul>
     </section>
-
-    <section class="feed">
-      <a href="">
-        <article>
-          <h2>Lorem ipsum</h2>
-          <img class="img_s3" src="http://via.placeholder.com/250" alt="image d'un sorcier" />
-          <p class="p_s3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            facilis! Labore consequatur sunt tempora excepturi itaque quia enim
-            a praesentium. Consequatur aspernatur soluta neque sapiente
-            voluptates animi architecto alias tempora.
-          </p>
-        </article>
-      </a>
-      <a href="">
-        <article>
-          <h2>Lorem ipsum</h2>
-          <img class="img_s3" src="http://via.placeholder.com/250" alt="image d'un sorcier" />
-          <p class="p_s3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            facilis! Labore consequatur sunt tempora excepturi itaque quia enim
-            a praesentium. Consequatur aspernatur soluta neque sapiente
-            voluptates animi architecto alias tempora.
-          </p>
-        </article>
-      </a>
-      <a href="">
-        <article>
-          <h2>Lorem ipsum</h2>
-          <img class="img_s3" src="http://via.placeholder.com/250" alt="image d'un sorcier" />
-          <p class="p_s3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            facilis! Labore consequatur sunt tempora excepturi itaque quia enim
-            a praesentium. Consequatur aspernatur soluta neque sapiente
-            voluptates animi architecto alias tempora.
-          </p>
-        </article>
-      </a>
-      <a href="">
-        <article>
-          <h2>Lorem ipsum</h2>
-          <img class="img_s3" src="http://via.placeholder.com/250" alt="image d'un sorcier" />
-          <p class="p_s3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            facilis! Labore consequatur sunt tempora excepturi itaque quia enim
-            a praesentium. Consequatur aspernatur soluta neque sapiente
-            voluptates animi architecto alias tempora.
-          </p>
-        </article>
-      </a>
-      <a href="">
-        <article>
-          <h2>Lorem ipsum</h2>
-          <img img="img_s3" src="http://via.placeholder.com/250" alt="image d'un sorcier" />
-          <p class="p_s3"> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            facilis! Labore consequatur sunt tempora excepturi itaque quia enim
-            a praesentium. Consequatur aspernatur soluta neque sapiente
-            voluptates animi architecto alias tempora.
-          </p>
-        </article>
-      </a>
-    </section>
-    <footer>
+    <footer class="menu">
       <div>
         <ul class="liensFooter">
           <li><a href="">Qui sommes nous</a></li>
@@ -260,10 +134,12 @@
       <div class="rejoindre">
         <p>Rejoignez nous !</p>
         <a href="">
-          <img src="img/logofacebook.png" alt="Liens Facebook" width="20px" />
+          <img src="img/logofacebook.png" alt="Liens Facebook" width="20" />
         </a>
         <a href="">
-          <img src="img/logotwitter.png" alt="Liens twitter" width="20px" />
+          <img src="img/logotwitter.png" alt="Liens twitter" width="20" />
         </a>
       </div>
     </footer>
+  </body>
+</html>
