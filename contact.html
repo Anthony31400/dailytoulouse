@@ -1,93 +1,61 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Daily_toulouse</title>
-    <link rel="stylesheet" href="stylemenu.css">
-    <link rel="stylesheet" href="stylenavbar.css">
-    <link rel="stylesheet" href="stylecarrousel.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="smallstyle.css" />
+    <link rel="stylesheet" href="mediumstyle.css" />
+    <link rel="stylesheet" href="largestyle.css" />
     <link rel="stylesheet" href="stylesheetfeed.css">
+    <title>Daily Toulouse</title>
   </head>
   <body>
     <header>
-      <div class="navbar">
-          <div class="navcol navbranding">
-            <div class="navlogo">
-              <img src="TDTlogo.jpg" alt="logo">
-            </div>
-            <h1>Daily Toulouse</h1>
-          </div>
-          <div class="navcol navtopright">
-            <div class="navsearch">
-              <input type="text" placeholder="Recherche..">
-            </div>
-            <div class="navavatar">
-              <img src="https://i.pravatar.cc/300" alt="avatar">
-            </div>
-          </div>
+      <nav class="navbar">
+        <div class="boutton-menu">
+          <label for="menu-box" id="bouttonMenu"> <img class="burger" src="burger.png" alt="burger" /> </label>
+            <img src="logo.jpg" alt="logo" />        
         </div>
+        <div class="titrepage">
+          <h1 class="titrepagesmall">DT</h1>
+          <h1 class="titrepagelarge">Daily Toulouse</h1>
+        </div>
+        <div class="recherche-profil">
+          <div class="recherche-box">
+            <input type="text" placeholder="recherche..." id="search" class="recherche-txt" />
+            <a href="#" class="search recherche-btn">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <img class="avatar" src="https://i.pravatar.cc/300" alt="avatar" />
+        </div>
+      </nav>
     </header>
-    <section>
-      <div class="carousel" aria-label="Gallery">
-        <ol class="carousel__viewport">
-          <li id="carousel__slide1"
-              tabindex="0"
-              class="carousel__slide">
-            <div class="carousel__snapper">
-              <script src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE'></script>
-            </div>
-            <a href="#carousel__slide3"
-              class="carousel__prev">Go to last slide</a>
-            <a href="#carousel__slide2"
-                 class="carousel__next">Go to next slide</a>
-          </li>
-          <li id="carousel__slide2"
-              tabindex="0"
-              class="carousel__slide">
-            <div class="carousel__snapper">
-              <audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio>
-            </div>
-            <a href="#carousel__slide1"
-               class="carousel__prev">Go to previous slide</a>
-            <a href="#carousel__slide3"
-               class="carousel__next">Go to next slide</a>
-          </li>
-          <li id="carousel__slide3"
-              tabindex="0"
-              class="carousel__slide">
-            <div class="carousel__snapper">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe>
-            </div>
-            <a href="#carousel__slide2"
-               class="carousel__prev">Go to previous slide</a>
-            <a href="#carousel__slide1"
-               class="carousel__next">Go to first slide</a>
-          </li>
-        </ol>
-        <aside class="carousel__navigation">
-          <ol class="carousel__navigation-list">
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide1"
-                 class="carousel__navigation-button">Go to slide 1</a>
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide2"
-                 class="carousel__navigation-button">Go to slide 2</a>
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide3"
-                 class="carousel__navigation-button">Go to slide 3</a>
-            </li>
-          </ol>
-        </aside>
+    <section class="caroussel">
+      <div class="widget">
+        <p class="widgetcomment">Météo locale</p>
+        <script src="http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE"></script>
       </div>
-
-<!--
-  <div class="widget"><script src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE'></script></div>
-  <div class="widget"><audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio></div>
-  <div class="widget"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe></div>
--->
-
+      <div class="widget">
+        <p class="widgetcomment">Ecoute Toulouse FM</p>
+        <audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio>
+      </div>
+      <div class="widget">
+        <p class="widgetcomment">Info traffic en temps réel</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe>
+      </div>
+      <div class="widget">
+        <p class="widgetcomment">Futur Widget</p>
+        <img src="https://via.placeholder.com/200" alt="Futur widget add" />
+      </div>
+      <div class="widget">
+        <p class="widgetcomment">Futur Widget</p>
+        <img src="https://via.placeholder.com/200" alt="Futur widget add" />
+      </div>
+      <div class="widget">
+        <p class="widgetcomment">Futur Widget</p>
+        <img src="https://via.placeholder.com/200" alt="Futur widget add" />
+      </div>
     </section>
     <section class="menu">
       <ul class="grostitre">
@@ -132,42 +100,54 @@
       </ul>
     </section>
     <section>
-      <div>
-        <h2>Qui sommes-nous?</h2>
-        <article>  
-          <h3>colabo 1</h3>
-          <img src="http://via.placeholder.com/250" alt="image d'un sorcier">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis enim, sunt animi earum beatae libero modi incidunt explicabo? Nostrum inventore aperiam fugiat perspiciatis eos voluptates ipsam eaque consequuntur ex.</p>
+      <div class="presentation">
+        <h2 class="h2_s3">Qui sommes-nous?</h2>
+        <article class="presentation-team">  
+          <h3 class="h2_s3">Thierry</h3>
+          <img src="https://img.icons8.com/dotty/100/000000/person-male.png" alt="Avatar personne homme">
+          <p class="p_s3">Notre doyen, c'est la force tranquille du groupe. Il ne parle pas beaucoup mais il envoie du code!</p>
         </article>
-        <article>  
-          <h3>colabo 2</h3>
-          <img src="http://via.placeholder.com/250" alt="image d'un sorcier">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis enim, sunt animi earum beatae libero modi incidunt explicabo? Nostrum inventore aperiam fugiat perspiciatis eos voluptates ipsam eaque consequuntur ex.</p>
+        <article class="presentation-team">  
+          <h3 class="h2_s3">Erwan</h3>
+          <img src="https://img.icons8.com/dotty/100/000000/person-male.png" alt="Avatar personne homme">
+          <p class="p_s3">L'artiste. Pour de la prose inventive ou du café 1er prix c'est lui.</p>
         </article>
-        <article>  
-          <h3>colabo 3</h3>
-          <img src="http://via.placeholder.com/250" alt="image d'un sorcier">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis enim, sunt animi earum beatae libero modi incidunt explicabo? Nostrum inventore aperiam fugiat perspiciatis eos voluptates ipsam eaque consequuntur ex.</p>
+        <article class="presentation-team">  
+          <h3 class="h2_s3">Anthony</h3>
+          <img src="https://img.icons8.com/dotty/100/000000/person-male.png" alt="Avatar personne homme">
+          <p class="p_s3">Trouve des solutions aux problèmes. Mais seulement la nuit ou entre midi et deux.</p>
         </article>
-        <article>  
-          <h3>colabo 4</h3>
-          <img src="http://via.placeholder.com/250" alt="image d'un sorcier">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis enim, sunt animi earum beatae libero modi incidunt explicabo? Nostrum inventore aperiam fugiat perspiciatis eos voluptates ipsam eaque consequuntur ex.</p>
+        <article class="presentation-team">  
+          <h3 class="h2_s3">Benjamin</h3>
+          <img src="https://img.icons8.com/dotty/100/000000/person-male.png" alt="Avatar personne homme">
+          <p class="p_s3">Besoin de faire bugger Git? appelez le.</p>
         </article>
-      </hr>
-        <div>
-          <h2>Nous contacter</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ducimus ipsam molestiae voluptatem fuga consectetur aliquam, nam vero est porro facere, quisquam, et officiis consequuntur quam repellendus tenetur dolorum earum.</p>
-          <label for="emailinput">email</label>
-          <input type="text" name="email" id="emailinput" placeholder="XXXXXX@XXX.XX" required>
-        </div>
-        <div>
-          <textarea name="Votre message" id="message" cols="30" rows="10" placeholder="laissez votre message"></textarea>
-        </div>
-        <input id="submit" type="submit" value="Envoyer">
-        <input id="cancel" type="reset" value="Annuler">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab amet accusamus magnam deleniti pariatur dolor velit qui! Ab odit inventore, tenetur laborum iste iusto voluptatem cum repudiandae sunt accusamus! Recusandae.</p>
       </div>
+      <hr class="hr">
+      <div class="contact">
+        <h2 class="h2_s3">Nous contacter</h2>
+        <p class="p_s3">Vous venez d'ouvrir votre enseigne ou vous voulez promouvoir votre activité sur Toulouse et sa région ?</p>
+        <p class="p_s3">Vous voulez nous rejoindre ? ça tombe bien on embauche des bénévoles !</p>
+        <p class="p_s3">Un simple avis ou commentaire ?</p>
+        <p class="p_s3">Contactez nous !</p>
+      </div>
+      <form action="" method="get" class="form-container">
+        <div class="form-contact">
+          <label for="name">Name :</label>
+          <input class="inputsize" type="text" name="name" id="name" required>
+        </div>
+        <div class="form-contact">
+          <label for="emailinput">Email :</label>
+          <input class="inputsize" type="text" name="email" id="emailinput" placeholder="      @gmail.com" required>
+        </div>
+        <div class="message">
+          <textarea name="Votre message" id="message" cols="50" rows="10" placeholder="Dites nous."></textarea>
+        </div>
+        <div class="send-button">
+          <input id="submit" type="submit" value="Envoyer">
+        </div>
+      </form>
+    </div>
     </section>
     <footer>
       <div>
