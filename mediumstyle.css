@@ -7,18 +7,27 @@
     width: 100%;
   }
   .navbar {
-    background-color: lightgreen;
+    background-color: #e9bebe;
   }
   #search {
     display: block;
   }
   .boutton-menu img {
     display: block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
   }
   .boutton-menu label {
     display: none;
   }
-
+  .titrepagelarge {
+    display: flex;
+  }
+  .titrepagesmall {
+    display: none;
+  }
   .feed {
     display: block;
     width: 60%;
