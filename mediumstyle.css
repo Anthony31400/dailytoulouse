@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .navbar {
-    background-color: lightgreen;
+    background-color: #e9bebe;
   }
   #search {
     display: block;
@@ -12,14 +12,15 @@
     margin: 5px;
     padding: 5px;
   }
-
-  .boutton-menu img {
-
-  }
   .boutton-menu label {
     display: none;
   }
-
+  .titrepagelarge {
+    display: flex;
+  }
+  .titrepagesmall {
+    display: none;
+  }
   .feed {
     width: 65%;
     float: right;

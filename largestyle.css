@@ -1,4 +1,7 @@
 @media screen and (min-width: 961px) {
+  .navbar {
+    background-color: #e58080;
+  }
   .feed {
     width: 60%;
   }
