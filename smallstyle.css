@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
+/*style navbar*/
 .navbar {
   display: flex;
   background-color: #ecd1d1;
@@ -42,7 +44,8 @@
   margin: 5px;
   padding: 5px;
 }
-
+/*style navbar*/
+/*style caroussel*/
 .caroussel {
   background-color: black;
   margin-bottom: 20px;
@@ -60,7 +63,8 @@
   text-align: center;
   color: white;
 }
-
+/*style caroussel*/
+/*Style feed*/
 .feed {
   background-color: white;
   margin-left: auto;
@@ -81,6 +85,33 @@
   height: 300px;
   margin: 5px;
 }
+.article_s3 {
+  float: left;
+  border: black;
+  border: solid;
+  height: 350px;
+  overflow: hidden;
+  margin: 10px;
+  text-align: center;
+}
+.article_s3:hover {
+  background-color: lightgray;
+}
+
+.img_s3 {
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+.p_s3 {
+  text-align: left;
+}
+
+.h2s3 {
+  text-align: center;
+}
+/*Style feed*/
 /*point sensible*/
 .menu {
   display: none;
@@ -154,13 +185,4 @@ footer {
 .menu a:hover {
   font-size: 1.1em;
   font-weight: bold;
-}
-.bouttonFollowSousMenu {
-  border: none;
-  padding: 0;
-  border-radius: 2px;
-  box-shadow: 2px 2px 5px #aaa;
-  background: #fff;
-  font: bold 13px;
-  color: #555;
 }
