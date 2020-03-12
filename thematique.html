@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Daily_toulouse</title>
-    <link rel="stylesheet" href="stylemenu.css">
-    <link rel="stylesheet" href="stylenavbar.css">
-    <link rel="stylesheet" href="stylecarrousel.css">
-    <link rel="stylesheet" href="stylemenu.css" >
-    <link rel="stylesheet" href="stylenavbar.css">
-    <link rel="stylesheet" href="stylesheetthematiqueS3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="smallstyle.css" />
+    <link rel="stylesheet" href="mediumstyle.css" />
+    <link rel="stylesheet" href="largestyle.css" />
+    <link rel="stylesheet" href="stylesheetfeed.css">
+    <title>Daily Toulouse</title>
   </head>
   <body>
     <header>
@@ -32,67 +31,31 @@
           </div>
         </div>
     </header>
-    <section>
-      <div class="carousel" aria-label="Gallery">
-        <ol class="carousel__viewport">
-          <li id="carousel__slide1"
-              tabindex="0"
-              class="carousel__slide">
-            <div class="carousel__snapper">
-              <script src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE'></script>
-            </div>
-            <a href="#carousel__slide3"
-              class="carousel__prev">Go to last slide</a>
-            <a href="#carousel__slide2"
-                 class="carousel__next">Go to next slide</a>
-          </li>
-          <li id="carousel__slide2"
-              tabindex="0"
-              class="carousel__slide">
-            <div class="carousel__snapper">
-              <audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio>
-            </div>
-            <a href="#carousel__slide1"
-               class="carousel__prev">Go to previous slide</a>
-            <a href="#carousel__slide3"
-               class="carousel__next">Go to next slide</a>
-          </li>
-          <li id="carousel__slide3"
-              tabindex="0"
-              class="carousel__slide">
-            <div class="carousel__snapper">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe>
-            </div>
-            <a href="#carousel__slide2"
-               class="carousel__prev">Go to previous slide</a>
-            <a href="#carousel__slide1"
-               class="carousel__next">Go to first slide</a>
-          </li>
-        </ol>
-        <aside class="carousel__navigation">
-          <ol class="carousel__navigation-list">
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide1"
-                 class="carousel__navigation-button">Go to slide 1</a>
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide2"
-                 class="carousel__navigation-button">Go to slide 2</a>
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide3"
-                 class="carousel__navigation-button">Go to slide 3</a>
-            </li>
-          </ol>
-        </aside>
+    <section class="caroussel">
+      <div class="widget">
+        <p class="widgetcomment">Météo locale</p>
+        <script src="http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE"></script>
       </div>
-
-<!--
-  <div class="widget"><script src='http://www.meteofrance.com/mf3-rpc-portlet/rest/vignettepartenaire/315550/type/VILLE_FRANCE/size/PAYSAGE_VIGNETTE'></script></div>
-  <div class="widget"><audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio></div>
-  <div class="widget"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe></div>
--->
-
+      <div class="widget">
+        <p class="widgetcomment">Ecoute Toulouse FM</p>
+        <audio preload="auto" controls src="http://mediam.streamakaci.com/toulousefm.mp3"></audio>
+      </div>
+      <div class="widget">
+        <p class="widgetcomment">Info traffic en temps réel</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92458.41915681625!2d1.4338141500000001!3d43.59976180000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1583858461140!5m2!1sfr!2sfr"></iframe>
+      </div>
+      <div class="widget">
+        <p class="widgetcomment">Futur Widget</p>
+        <img src="https://via.placeholder.com/200" alt="Futur widget add" />
+      </div>
+      <div class="widget">
+        <p class="widgetcomment">Futur Widget</p>
+        <img src="https://via.placeholder.com/200" alt="Futur widget add" />
+      </div>
+      <div class="widget">
+        <p class="widgetcomment">Futur Widget</p>
+        <img src="https://via.placeholder.com/200" alt="Futur widget add" />
+      </div>
     </section>
     <section class="menu">
       <ul class="grostitre">
