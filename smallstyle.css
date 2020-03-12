@@ -227,4 +227,51 @@ textarea {
 label {
     display: block;
     margin-bottom: 10px;
+
+.recherche-box{
+  border: red solid 1px;
+  background-color: #523f3f;
+  border-radius   : 40px;
+  height          : 40px;
+  right           : 61px;
+  padding         : 30px;
+  position        : absolute;
+  top             : 33px;
+  transform       : translate(-50%, -50%);
+}
+
+.recherche-btn{
+  align-items    : center;
+  background     : #523f3f;
+  border-radius  : 50%;
+  color          : #BDBDBD;
+  display        : flex;
+  float          : right;
+  height         : 40px;
+  justify-content: center;
+  text-decoration: none;
+  transition     : 0.4s;
+  width          : 0px;
+}
+
+.recherche-txt{
+  background : none;
+  border     : none;
+  color      : #fff;
+  font-size  : 16px;
+  float      : left;
+  line-height: 40px;
+  outline    : none;
+  padding    : 0;
+  transition : 0.4s;
+  width      : 0px;
+}
+
+.recherche-box:hover > .recherche-txt{
+  padding: 0 6px;
+  width  : 100px;
+}
+.recherche-box:hover > .recherche-btn{
+  background: #fff;
+  color     : #333;
 }
