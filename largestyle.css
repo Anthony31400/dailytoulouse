@@ -1,0 +1,16 @@
+@media screen and (min-width: 961px) {
+  .feed {
+    width: 50%;
+  }
+  .menu,
+  .footer, {
+    width: 20%;
+  }
+  .caroussel {
+    width: 20%;
+    flex-direction: column;
+    float: right;
+    overflow-y: inherit;
+    margin: 0px;
+  }
+}
