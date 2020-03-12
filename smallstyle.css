@@ -48,7 +48,13 @@
 /*style caroussel*/
 .caroussel {
   border: solid black 2px;
-  background-color: black;
+  background-image: url("https://unsplash.com/photos/FOr1dBCQs4U");
+  /*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
