@@ -1,4 +1,11 @@
 @media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header {
+    width: 100%;
+  }
   .navbar {
     background-color: lightgreen;
   }
@@ -13,12 +20,16 @@
   }
 
   .feed {
-    width: 65%;
-    float: right;
+    display: block;
+    width: 60%;
   }
   .menu {
-    display: inline-block;
+    display: block;
+  }
+  .section-menu {
+    display: block;
     width: 30%;
+    padding: 10px;
   }
   .foot {
     display: none;

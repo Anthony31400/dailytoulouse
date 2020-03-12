@@ -58,10 +58,12 @@
   background-color: lightcoral;
   position: absolute;
   top: 50px;
-  width: 100%;
+  width: 50%;
+  padding: 20px;
 }
 footer {
   display: none;
+  padding: 0;
 }
 /*point sensible*/
 
@@ -90,4 +92,39 @@ footer {
 }
 #sous-titre-voyage:target {
   display: block;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+}
+.menu .sous-titre {
+  padding-left: 10px;
+}
+
+.menu .sous-titre li {
+  display: flex;
+  justify-content: space-between;
+}
+.menu li {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu a:hover {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.bouttonFollowSousMenu {
+  border: none;
+  padding: 0;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px #aaa;
+  background: #fff;
+  font: bold 13px;
+  color: #555;
 }
