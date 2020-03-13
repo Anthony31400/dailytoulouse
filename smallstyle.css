@@ -85,6 +85,7 @@ body {
   overflow-x: unset;
   flex-direction: column;
 }
+
 .headerart {
   margin: 0 20px 20px 20px;
   font-size: 15px;
@@ -118,6 +119,13 @@ body {
 
   margin: 20px 0 0 20px;
 }
+.h1_article, .h2_article{
+  margin: 20px;
+}
+.img_article {
+  width: 100%;
+} 
+ 
 /*Style feed*/
 /*point sensible*/
 .menu {
