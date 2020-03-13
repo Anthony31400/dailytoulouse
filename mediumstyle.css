@@ -44,7 +44,7 @@
     grid-row-start: 3;
     grid-row-end: span 3;
     height: 1000px;
-    background-color: white
+    /*background-color: white*/
   }
 
 .article_s3{
