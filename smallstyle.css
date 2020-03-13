@@ -10,7 +10,8 @@ body {
 /*style navbar*/
 .navbar {
   display: flex;
-  background-color: #ecd1d1;
+  background-color: black;
+  color: white;
   height: 50px;
   width: 100%;
   justify-content: space-between;
@@ -22,6 +23,7 @@ body {
   height: 30px;
   margin: 5px;
   padding: 5px;
+  filter: invert(100%);
 }
 .boutton-menu img {
   display: none;
@@ -129,7 +131,7 @@ body {
 #menu-box:checked ~ ul.menu,
 #menu-box:checked ~ * ul.menu {
   display: block;
-  background-color: lightcoral;
+  background-color: black;
   position: absolute;
   top: 50px;
   width: 50%;
@@ -171,6 +173,7 @@ footer {
 .menu {
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 .menu .sous-titre {
   padding-left: 10px;
@@ -185,13 +188,18 @@ footer {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.menu a {
+.menu a,
+.menu p {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .menu a:hover {
   font-size: 1.1em;
   font-weight: bold;
+}
+.menu li:last-child {
+  display: flex;
+  justify-content: space-between;
 }
 /*Style Contact page*/
 
@@ -219,65 +227,66 @@ footer {
 
 label,
 textarea {
-    font-size: .8rem;
-    letter-spacing: 1px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 textarea {
-    padding: 10px;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
 }
 
 label {
-    display: block;
-    margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
 
-.recherche-box{
+.recherche-box {
   border: red solid 1px;
   background-color: #523f3f;
-  border-radius   : 40px;
-  height          : 40px;
-  right           : 61px;
-  padding         : 30px;
-  position        : absolute;
-  top             : 33px;
-  transform       : translate(-50%, -50%);
+  border-radius: 40px;
+  height: 40px;
+  right: 61px;
+  padding: 30px;
+  position: absolute;
+  top: 33px;
+  transform: translate(-50%, -50%);
 }
 
-.recherche-btn{
-  align-items    : center;
-  background     : #523f3f;
-  border-radius  : 50%;
-  color          : #BDBDBD;
-  display        : flex;
-  float          : right;
-  height         : 40px;
+.recherche-btn {
+  align-items: center;
+  background: #523f3f;
+  border-radius: 50%;
+  color: #bdbdbd;
+  display: flex;
+  float: right;
+  height: 40px;
   justify-content: center;
   text-decoration: none;
-  transition     : 0.4s;
-  width          : 0px;
+  transition: 0.4s;
+  width: 0px;
 }
 
-.recherche-txt{
-  background : none;
-  border     : none;
-  color      : #fff;
-  font-size  : 16px;
-  float      : left;
+.recherche-txt {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  float: left;
   line-height: 40px;
-  outline    : none;
-  padding    : 0;
-  transition : 0.4s;
-  width      : 0px;
+  outline: none;
+  padding: 0;
+  transition: 0.4s;
+  width: 0px;
 }
 
-.recherche-box:hover > .recherche-txt{
+.recherche-box:hover > .recherche-txt {
   padding: 0 6px;
-  width  : 100px;
+  width: 100px;
 }
-.recherche-box:hover > .recherche-btn{
+.recherche-box:hover > .recherche-btn {
   background: #fff;
-  color     : #333;
+  color: #333;
 }

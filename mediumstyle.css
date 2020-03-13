@@ -53,26 +53,51 @@
 
   .menu {
     display: block;
+    background-color: white;
+    margin: 10px;
+  }
+  .menu a,
+  .menu p {
+    color: black;
   }
   .section-menu {
     display: block;
     grid-column-start: 1;
     grid-row-start: 3;
   }
-  .foot {
+  .foot,
+  .menu li:last-child {
     display: none;
   }
   footer {
     display: block;
     grid-column-start: 1;
     grid-row-start: 4;
-   }
-   /*Style Contact page*/
+  }
+  /*Style Contact page*/
 
-
-   .presentation .contact {
+  .presentation .contact {
     grid-column-start: 2;
     grid-row-start: 3;
     grid-row-end: span 2;
   }
+<<<<<<< HEAD
 }
+=======
+
+  .rejoindre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .rejoindre p {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .rejoindre a {
+    width: 50%;
+    text-align: center;
+  }
+}
+>>>>>>> e42f7377e09d9e01f164c9740fa472f2e1b63ac0
