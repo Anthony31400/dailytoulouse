@@ -125,8 +125,7 @@
   background-color: lightcoral;
   position: absolute;
   top: 50px;
-  height: 100vh;
-  width: 70%;
+  width: 50%;
   padding: 20px;
 }
 footer {
@@ -167,10 +166,13 @@ footer {
   margin: 0;
 }
 .menu .sous-titre {
-  margin-top: 10px;
   padding-left: 10px;
 }
 
+.menu .sous-titre li {
+  display: flex;
+  justify-content: space-between;
+}
 .menu li {
   list-style: none;
   margin-top: 10px;
