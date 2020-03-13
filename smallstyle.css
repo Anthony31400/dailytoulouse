@@ -54,7 +54,13 @@ body {
 /*style caroussel*/
 .caroussel {
   border: solid black 2px;
-  background-color: black;
+  background-image: url("./15368702220_350de0374a_k.jpg");
+  /*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
@@ -68,7 +74,7 @@ body {
 }
 .widgetcomment {
   text-align: center;
-  color: white;
+  color: solid white;
 }
 /*style caroussel*/
 .fil {
