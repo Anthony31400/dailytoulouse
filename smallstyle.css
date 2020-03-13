@@ -166,6 +166,7 @@ i {
 }
 .article_s3page{
   margin: 20px;
+  background-color: white;
 }
 .img_s3 {
   width: 100%;
@@ -316,9 +317,6 @@ textarea {
 }
 
 label {
-<<<<<<< HEAD
-  display: block;
-=======
     display: block;
     margin-bottom: 10px;
 }
@@ -368,5 +366,4 @@ label {
 .recherche-box:hover > .recherche-btn{
   background: #fff;
   color     : #333;
->>>>>>> feature/feed
 }
