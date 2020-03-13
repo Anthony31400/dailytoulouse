@@ -5,6 +5,7 @@
     grid-template-rows: auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+    background-color: white;
   }
   header {
     grid-column-start: 1;
@@ -43,7 +44,15 @@
     grid-row-start: 3;
     grid-row-end: span 3;
     height: 1000px;
+    background-color: white
   }
+  .img_s3 {
+    margin: 40px;
+  }
+.article_s3{
+  float: left;
+}
+
   .menu {
     display: block;
   }

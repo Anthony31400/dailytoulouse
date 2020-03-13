@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color:white;
+}
+
 /*style navbar*/
 .navbar {
   display: flex;
@@ -64,9 +68,12 @@
   color: white;
 }
 /*style caroussel*/
+.fil {
+  color: white;
+}
 /*Style feed*/
 .feed {
-  background-color: white;
+  background-color: black;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -75,41 +82,40 @@
   scroll-behavior: auto;
   overflow-y: scroll;
   overflow-x: unset;
-  border: 1cm;
-  border: solid;
-  color: black;
   flex-direction: column;
 }
-.feed div {
-  background-color: lightgrey;
-  height: 300px;
-  margin: 5px;
+.headerart {
+  margin: 0 20px 20px 20px;
+  font-size: 15px;
+  color: black;
+  text-align: start; 
 }
+
+
 .article_s3 {
   float: left;
   border: black;
   border: solid;
-  height: 350px;
+  height: auto;
   overflow: hidden;
   margin: 10px;
-  text-align: center;
+  background-color: white;
 }
 .article_s3:hover {
   background-color: lightgray;
 }
 
 .img_s3 {
-  margin-right: 10px;
-  margin-left: 10px;
-  float: left;
+  width: 100%;
 }
 
 .p_s3 {
   text-align: left;
 }
 
-.h2s3 {
-  text-align: center;
+.h2_s3 {
+
+  margin: 20px 0 0 20px;
 }
 /*Style feed*/
 /*point sensible*/
