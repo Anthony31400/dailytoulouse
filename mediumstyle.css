@@ -46,8 +46,7 @@
     height: 1000px;
     background-color: white
   }
-  .img_s3 {
-    margin: 40px;
+  
   }
 .article_s3{
   float: left;
@@ -77,4 +76,4 @@
     grid-row-start: 3;
     grid-row-end: span 2;
   }
-
+}

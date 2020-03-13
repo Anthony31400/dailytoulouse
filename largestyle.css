@@ -24,6 +24,7 @@
   .article_s3 {
     display: inline-block;
     align-content: flex-start;
+    height: 350px;
   }
   .div_s3 {
     display: flex
@@ -39,6 +40,7 @@
   .img_s3 {
   width: 50%;
   float: left;
+  margin: 20px;
   }
   .fil {
     text-align: left;
