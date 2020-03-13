@@ -44,12 +44,12 @@
     grid-row-start: 3;
     grid-row-end: span 3;
     height: 1000px;
-    background-color: white
+    background-color: white;
   }
 
-.article_s3{
-  float: left;
-}
+  .article_s3 {
+    float: left;
+  }
 
   .menu {
     display: block;
@@ -81,9 +81,6 @@
     grid-row-start: 3;
     grid-row-end: span 2;
   }
-<<<<<<< HEAD
-}
-=======
 
   .rejoindre {
     display: flex;
@@ -100,4 +97,3 @@
     text-align: center;
   }
 }
->>>>>>> e42f7377e09d9e01f164c9740fa472f2e1b63ac0
