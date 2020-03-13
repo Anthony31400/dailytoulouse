@@ -25,7 +25,7 @@
     display: inline-block;
     align-content: flex-start;
   }
-  div {
+  .div_s3 {
     display: flex
   }
   .p_s3{
