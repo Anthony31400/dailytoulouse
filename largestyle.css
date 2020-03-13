@@ -10,9 +10,6 @@
     grid-column-end: span 4;
   }
 
-  .navbar {
-    background-color: #e58080;
-  }
   .feed {
     display: block;
     grid-column-start: 2;
@@ -25,12 +22,11 @@
     display: inline-block;
     align-content: flex-start;
     height: 400px;
-    
   }
   .div_s3 {
-    display: flex
+    display: flex;
   }
-  .p_s3{
+  .p_s3 {
     margin: auto;
     float: right;
     width: 40%;
@@ -39,21 +35,14 @@
     margin: 20px;
   }
   .img_s3 {
-  width: 50%;
-  float: left;
-  margin: 20px;
+    width: 50%;
+    float: left;
+    margin: 20px;
   }
   .fil {
     text-align: left;
     margin: 10px;
     color: black;
-
-  }
-  .boutton-menu img {
-    width: 60px;
-    height: 60px;
-    margin: 5px;
-    padding: 5px;
   }
 
   .img-back {
@@ -91,11 +80,11 @@
     grid-row-start: 3;
     text-align: start;
   }
-/*Style Contact page*/
+  /*Style Contact page*/
 
   .presentation .contact {
     grid-column-start: 2;
     grid-column-end: span 2;
     grid-row-start: 2;
-  }  
+  }
 }

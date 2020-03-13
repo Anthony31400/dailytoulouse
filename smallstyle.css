@@ -104,7 +104,7 @@ i {
 .caroussel {
   border: solid black 2px;
   background-image: url("img/15368702220_350de0374a_k.jpg");
-   /*filter: blur(8px);
+  /*filter: blur(8px);
   -webkit-filter: blur(8px);*/
   height: 100%;
   background-position: center;
@@ -164,7 +164,7 @@ i {
 .article_s3:hover {
   background-color: lightgray;
 }
-.article_s3page{
+.article_s3page {
   margin: 20px;
   background-color: white;
 }
@@ -184,16 +184,18 @@ i {
 .h2_s3 {
   margin: 20px 0 0 20px;
 }
-.h1_article, .h2_article{
+.h1_article,
+.h2_article {
   margin: 20px;
 }
 .img_article {
-  width: 100%;  
-} 
+  width: 100%;
+}
 #footer_article {
   margin-top: 20px;
 }
-.connection, #buttons_article {
+.connection,
+#buttons_article {
   margin: 20px;
 }
 /*Style feed*/
@@ -212,8 +214,18 @@ i {
   position: absolute;
   top: 100px;
   width: 70%;
-  height: 100vh;
   padding: 20px;
+  box-shadow: 0px 10px 12px 6px rgba(0, 0, 0, 0.39);
+  border-bottom-right-radius: 40px;
+  animation: checkbox-check 0.5s forwards;
+}
+@keyframes checkbox-check {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
 }
 footer {
   display: none;
@@ -223,38 +235,15 @@ footer {
 
 /*Style du menu*/
 
-#sous-titre-societe {
-  display: none;
-}
-#sous-titre-societe:target {
-  display: block;
-}
-#sous-titre-sport {
-  display: none;
-}
-#sous-titre-sport:target {
-  display: block;
-}
-#sous-titre-lifestyle {
-  display: none;
-}
-#sous-titre-lifestyle:target {
-  display: block;
-}
-#sous-titre-voyage {
-  display: none;
-}
-#sous-titre-voyage:target {
-  display: block;
-}
-
-.menu {
-  padding: 0;
-  margin: 0;
-  background-color: black;
+.grostitre {
+  font-size: 1.6em;
+  font-weight: bold;
 }
 .menu .sous-titre {
-  padding-left: 10px;
+  padding-left: 100px;
+}
+.footer-flex-menu {
+  margin-top: 50px;
 }
 
 .menu .sous-titre li {
@@ -271,14 +260,36 @@ footer {
   text-decoration: none;
   color: white;
 }
-.menu a:hover {
+.menu .sous-titre a:hover,
+.menu .foot a:hover,
+.footer-flex-menu a:hover {
   font-size: 1.1em;
   font-weight: bold;
+  transition: all 0.1s ease-out;
 }
-.menu li:last-child {
+.flex-rejoindre {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+.flex-rejoindre p {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.flex-rejoindre img {
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+.flex-rejoindre img:hover {
+  width: 50px;
+  height: 50px;
+  transition: all 0.1s ease-out;
+}
+
 /*Style Contact page*/
 
 .hr {
@@ -317,6 +328,7 @@ textarea {
 }
 
 label {
+<<<<<<< HEAD
     display: block;
     margin-bottom: 10px;
 }
@@ -366,4 +378,7 @@ label {
 .recherche-box:hover > .recherche-btn{
   background: #fff;
   color     : #333;
+=======
+  display: block;
+>>>>>>> 77b3805951ea88e5cc49d9be9eb4f538b2697fd4
 }

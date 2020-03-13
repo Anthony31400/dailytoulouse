@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
   body {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -16,18 +16,13 @@
     grid-column-end: span 2;
     grid-row-start: 2;
   }
-  .navbar {
-    background-color: #e9bebe;
-  }
   #search {
     display: block;
   }
   .boutton-menu img {
     display: block;
     width: 60px;
-    height: 60px;
-    margin: 5px;
-    padding: 5px;
+    border-radius: 40px;
   }
   .boutton-menu label {
     display: none;
@@ -47,26 +42,19 @@
     /*background-color: white*/
   }
 
-<<<<<<< HEAD
-  .article_s3 {
-    float: left;
-  }
-=======
   .fil {
     text-align: left;
     margin: 10px;
     color: black;
   }
 
-.article_s3{
-  float: left;
-}
->>>>>>> feature/feed
+  .article_s3 {
+    float: left;
+  }
 
   .menu {
     display: block;
-    background-color: white;
-    margin: 10px;
+    background: none;
   }
   .menu a,
   .menu p {
@@ -76,8 +64,12 @@
     display: block;
     grid-column-start: 1;
     grid-row-start: 3;
+    box-shadow: 0px 10px 12px 6px rgba(0, 0, 0, 0.39);
+    border-radius: 30px;
+    margin-left: 5px;
+    padding: 10px;
   }
-  .foot,
+  .footer-flex-menu,
   .menu li:last-child {
     display: none;
   }
@@ -85,6 +77,48 @@
     display: block;
     grid-column-start: 1;
     grid-row-start: 4;
+    font-size: 1.1em;
+    box-shadow: 0px 10px 12px 6px rgba(0, 0, 0, 0.39);
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 5px;
+  }
+  footer a:hover {
+    font-weight: bold;
+    font-size: 1em;
+    transition: all 0.1s ease-out;
+  }
+  .rejoindre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+  }
+  .rejoindre p {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .rejoindre img {
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+  }
+  .rejoindre img:hover {
+    width: 50px;
+    height: 50px;
+    transition: all 0.1s ease-out;
+  }
+
+  .grostitre {
+    font-size: 1.2em;
+    padding-left: 10px;
+  }
+  .menu .sous-titre {
+    padding-left: 40px;
+    font-size: 0.9em;
   }
   /*Style Contact page*/
 
@@ -93,23 +127,4 @@
     grid-row-start: 3;
     grid-row-end: span 2;
   }
-
-  .rejoindre {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .rejoindre p {
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  .rejoindre a {
-    width: 50%;
-    text-align: center;
-  }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> feature/feed
