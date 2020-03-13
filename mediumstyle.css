@@ -47,9 +47,21 @@
     /*background-color: white*/
   }
 
+<<<<<<< HEAD
   .article_s3 {
     float: left;
   }
+=======
+  .fil {
+    text-align: left;
+    margin: 10px;
+    color: black;
+  }
+
+.article_s3{
+  float: left;
+}
+>>>>>>> feature/feed
 
   .menu {
     display: block;
@@ -96,4 +108,8 @@
     width: 50%;
     text-align: center;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> feature/feed
