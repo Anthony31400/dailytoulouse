@@ -92,13 +92,13 @@ i {
 /*style navbar*/
 /*style caroussel*/
 .caroussel {
-  border: solid black 2px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
   overflow-y: auto;
+  box-shadow: 0px 10px 12px 6px rgba(0, 0, 0, 0.39);
 }
 .widget {
   margin-left: 0;
@@ -115,8 +115,7 @@ i {
 /*Style feed*/
 .feed {
   background-color: black;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 5px;
   width: 100%;
   height: 800px;
   display: flex;
@@ -124,6 +123,7 @@ i {
   overflow-y: scroll;
   overflow-x: unset;
   flex-direction: column;
+  box-shadow: 0px 10px 12px 6px rgba(0, 0, 0, 0.39);
 }
 .headerart {
   margin: 0 20px 20px 20px;

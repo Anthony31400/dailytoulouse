@@ -38,8 +38,10 @@
     grid-column-start: 2;
     grid-row-start: 3;
     grid-row-end: span 3;
-    height: 1000px;
+    height: 927px;
     background-color: white;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
   }
 
   .article_s3 {
@@ -56,11 +58,12 @@
   }
   .section-menu {
     display: block;
+    background-color: white;
     grid-column-start: 1;
     grid-row-start: 3;
     box-shadow: 0px 10px 12px 6px rgba(0, 0, 0, 0.39);
-    border-radius: 30px;
-    margin-left: 5px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
     padding: 10px;
   }
   .footer-flex-menu,
@@ -73,9 +76,9 @@
     grid-row-start: 4;
     font-size: 1.1em;
     box-shadow: 0px 10px 12px 6px rgba(0, 0, 0, 0.39);
-    border-radius: 30px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
     padding: 10px;
-    margin-left: 5px;
   }
   footer a:hover {
     font-weight: bold;
