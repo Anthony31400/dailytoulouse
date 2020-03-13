@@ -44,6 +44,12 @@
     border-bottom-left-radius: 40px;
   }
 
+  .fil {
+    text-align: left;
+    margin: 10px;
+    color: black;
+  }
+
   .article_s3 {
     float: left;
   }

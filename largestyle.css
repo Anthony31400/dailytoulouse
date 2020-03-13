@@ -22,7 +22,7 @@
   .article_s3 {
     display: inline-block;
     align-content: flex-start;
-    height: 350px;
+    height: 400px;
   }
   .div_s3 {
     display: flex;
@@ -32,7 +32,7 @@
     float: right;
     width: 40%;
   }
-  .h2 {
+  .h2.s3 {
     margin: 20px;
   }
   .img_s3 {
@@ -46,7 +46,16 @@
     color: black;
   }
 
+  .img-back {
+    display: inline;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+  }
+
   .caroussel {
+    background-image: none;
     grid-column-start: 3;
     grid-column-end: span 2;
     grid-row-start: 2;
