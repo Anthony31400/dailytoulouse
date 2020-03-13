@@ -103,12 +103,20 @@ body {
   margin: 10px;
   background-color: white;
 }
+
 .article_s3:hover {
   background-color: lightgray;
 }
-
+.article_s3page{
+  margin: 20px;
+}
 .img_s3 {
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#commentaire {
+  margin: 20px;
 }
 
 .p_s3 {
@@ -123,9 +131,14 @@ body {
   margin: 20px;
 }
 .img_article {
-  width: 100%;
+  width: 100%;  
 } 
- 
+#footer_article {
+  margin-top: 20px;
+}
+.connection{
+  margin: 20px;
+}
 /*Style feed*/
 /*point sensible*/
 .menu {
@@ -241,7 +254,7 @@ textarea {
 label {
     display: block;
     margin-bottom: 10px;
-
+}
 .recherche-box{
   border: red solid 1px;
   background-color: #523f3f;
