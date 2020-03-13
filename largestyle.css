@@ -19,29 +19,32 @@
     grid-row-start: 2;
     grid-row-end: span 2;
     height: 1000px;
-    width: 100%;  
+    width: 100%;
   }
- .article_s3 {
-  display: inline-block;
-  width: 100%;
-  height: 400px;
-  float: left;
- }
-  
-  .img_s3 {
-    height: 40%;
-    width: 40%;
+  .article_s3 {
+    display: inline-block;
+    align-content: flex-start;
+  }
+  div {
+    display: flex
   }
   .p_s3{
-    float: left;
+    margin: auto;
+    float: right;
+    width: 40%;
   }
   .h2 {
     margin: 20px;
   }
-
+  .img_s3 {
+  width: 50%;
+  float: left;
+  }
   .fil {
     text-align: left;
     margin: 10px;
+    color: black;
+
   }
   .boutton-menu img {
     width: 60px;
