@@ -55,7 +55,7 @@
   }
 
   .caroussel {
-    background-image: none;
+    background: none;
     grid-column-start: 3;
     grid-column-end: span 2;
     grid-row-start: 2;
