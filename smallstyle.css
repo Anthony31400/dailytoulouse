@@ -48,7 +48,7 @@
 /*style caroussel*/
 .caroussel {
   border: solid black 2px;
-  background-image: url("https://unsplash.com/photos/FOr1dBCQs4U");
+  background-image: url("./15368702220_350de0374a_k.jpg");
   /*filter: blur(8px);
   -webkit-filter: blur(8px);*/
   height: 100%;
@@ -68,7 +68,7 @@
 }
 .widgetcomment {
   text-align: center;
-  color: white;
+  color: solid white;
 }
 /*style caroussel*/
 /*Style feed*/
