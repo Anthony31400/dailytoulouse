@@ -136,7 +136,7 @@ body {
 #footer_article {
   margin-top: 20px;
 }
-.connection{
+.connection, #buttons_article {
   margin: 20px;
 }
 /*Style feed*/
