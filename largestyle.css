@@ -19,15 +19,15 @@
     width: 100%;
     border-radius: 40px;
   }
-  .article_s3 {
+  .Article {
     display: inline-block;
     align-content: flex-start;
     height: 400px;
   }
-  .div_s3 {
+  .contentImgAndTextArticle {
     display: flex;
   }
-  .p_s3 {
+  .textArticle {
     margin: auto;
     float: right;
     width: 40%;
@@ -35,7 +35,7 @@
   .h2.s3 {
     margin: 20px;
   }
-  .img_s3 {
+  .imgArticle {
     width: 50%;
     float: left;
     margin: 20px;

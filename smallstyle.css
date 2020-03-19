@@ -12,9 +12,6 @@
   height: 40px;
   right: 61px;
   padding: 30px;
-  /*position: absolute;
-  top: 33px;*/
-  /*transform: translate(-50%, -50%);*/
 }
 
 .recherche-btn {
@@ -43,10 +40,6 @@
   transition: 0.4s;
   width: 0px;
 }
-
-/*body {
-  background-color:white;
-}*/
 
 .recherche-box:hover > .recherche-txt {
   padding: 0 6px;
@@ -125,8 +118,6 @@ i {
 }
 /*Style feed*/
 .feed {
-  background-color: white;
-  margin-right: 5px;
   width: 100%;
   height: 800px;
   display: flex;
@@ -136,32 +127,57 @@ i {
   flex-direction: column;
   box-shadow: 0px 10px 12px 6px rgba(0, 0, 0, 0.39);
 }
-
-.headerart {
-  margin: 0 20px 20px 20px;
-  font-size: 15px;
+.articleLink {
+  text-decoration: none;
   color: black;
-  text-align: start;
+}
+.articleTitle {
+  font-size: 2em;
 }
 
-.article_s3 {
-  float: left;
-  border: black;
-  border: solid;
+.imgArticle {
+  width: 100%;
+  border-radius: 20px;
+  filter: grayscale(0.6);
+  margin-bottom: 20px;
+}
+.textArticle {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+.textLeft {
+  display: none;
+}
+.articleDivision {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.AuthorAndDate {
+  color: rgb(0, 0, 0, 0.5);
+  display: block;
+  text-align: right;
+  font-size: 1em;
+}
+
+.Article {
   height: auto;
   overflow: hidden;
   margin: 10px;
-  background-color: white;
+  border-bottom: black;
 }
 
-.article_s3:hover {
+.Article:hover {
   background-color: lightgray;
 }
-.article_s3page {
+.Articlepage {
   margin: 20px;
   background-color: white;
 }
-.img_s3 {
+.imgArticle {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -170,13 +186,6 @@ i {
   margin: 20px;
 }
 
-.p_s3 {
-  text-align: left;
-}
-
-.h2_s3 {
-  margin: 20px 0 0 20px;
-}
 .h1_article,
 .h2_article {
   margin: 20px;
