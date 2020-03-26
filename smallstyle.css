@@ -231,6 +231,7 @@ footer {
   font-size: 1.1em;
   font-weight: bold;
   transition: all 0.1s ease-out;
+  cursor: pointer;
 }
 .flex-rejoindre {
   display: flex;
