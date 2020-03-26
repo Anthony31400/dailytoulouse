@@ -1,7 +1,10 @@
 function deactivateTooltips() {
 
-    var tooltips = document.querySelectorAll('.tooltip'),
-        tooltipsLength = tooltips.length;
+    var tooltips = document.querySelectorAll('.tooltip');
+
+    var tooltipsLength = tooltips.length;
+    
+    console.log(tooltips);
 
     for (var i = 0; i < tooltipsLength; i++) {
         tooltips[i].style.display = 'none';
@@ -25,15 +28,34 @@ var check = {};
 
 check['name'] = function(id) {
 
-    var name = document.getElementById(id),
-        tooltipStyle = getTooltip(name).style;
+    var name = document.getElementById(id);
 
-    if (name.value.length >= 2) {
+    var tooltipStyle = getTooltip(name).style;
+
+    if (name.value.length >= 3) {
         name.className = 'correct';
         tooltipStyle.display = 'none';
         return true;
     } else {
         name.className = 'incorrect';
+        tooltipStyle.display = 'inline-block';
+        return false;
+    }
+
+};
+
+check['email'] = function(id) {
+
+    var email = document.getElementById(id);
+
+    var tooltipStyle = getTooltip(email).style;
+
+    if (email.value.length >= 10) {
+        email.className = 'correct';
+        tooltipStyle.display = 'none';
+        return true;
+    } else {
+        email.className = 'incorrect';
         tooltipStyle.display = 'inline-block';
         return false;
     }
@@ -42,32 +64,31 @@ check['name'] = function(id) {
 
 check['votreMessage'] = function(id) {
 
-    var votreMessage = document.getElementById(id),
-        tooltipStyle = getTooltip(name).style;
+    var votreMessage = document.getElementById(id);
 
-    if (name.value.length >= 50) {
-        name.className = 'correct';
+    var tooltipStyle = getTooltip(votreMessage).style;
+
+    if (votreMessage.value.length >= 10) {
+        votreMessage.className = 'correct';
         tooltipStyle.display = 'none';
         return true;
     } else {
-        name.className = 'incorrect';
+        votreMessage.className = 'incorrect';
         tooltipStyle.display = 'inline-block';
         return false;
     }
 
 };
 
-// Mise en place des événements
-
-(function() { // Utilisation d'une IIFE pour éviter les variables globales.
+(function() {
 
     var myForm = document.getElementById('myForm'),
-        inputs = document.querySelectorAll('input[type=text], input[type=password]'),
+        inputs = document.querySelectorAll('input[type=text]'),
         inputsLength = inputs.length;
 
     for (var i = 0; i < inputsLength; i++) {
         inputs[i].addEventListener('keyup', function(e) {
-            check[e.target.id](e.target.id); // "e.target" représente l'input actuellement modifié
+            check[e.target.id](e.target.id);
         });
     }
 
@@ -80,7 +101,7 @@ check['votreMessage'] = function(id) {
         }
 
         if (result) {
-            alert('Le formulaire est bien rempli.');
+            alert('Nous avons bien reçu votre message, nous reviendrons vers vous dès que possible.');
         }
 
         e.preventDefault();
@@ -98,8 +119,5 @@ check['votreMessage'] = function(id) {
     });
 
 })();
-
-
-// Maintenant que tout est initialisé, on peut désactiver les "tooltips"
 
 deactivateTooltips();
