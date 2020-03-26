@@ -39,6 +39,23 @@
     grid-row-start: 2;
     border-radius: 10px;
   }
+  .backOffice {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    grid-column-start: 3;
+    grid-row-start: 1;
+    margin-top: 120px;
+  }
+  .champs {
+    text-align: center;
+  }
+  label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
   /*Style Contact page*/
 
   .presentation .contact {
