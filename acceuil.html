@@ -46,21 +46,25 @@
         </div>
       </nav>
     </header>
-    <section class="feed">
-      <template>
+    <section>
+      <template id="article-template">
         <a href="" class="articleLink">
           <article class="Article">
             <h2 class="ArticleTitle"></h2>
             <div class="contentImgAndTextArticle">
               <img src="" alt="" class="imgArticle" />
-              <p class="textArticle"><span class="textleft"></span></p>
+              <p class="textArticle"></p>
+              <p class="textleft"></p>
             </div>
             <div class="AuthorAndDate">
               <em></em>
             </div>
           </article>
+          <hr class="articleDivision" />
         </a>
       </template>
+    </section>
+    <section class="feed" id="parentElement">
       <a href="" class="articleLink">
         <article class="Article">
           <h2 class="articleTitle">
@@ -77,28 +81,29 @@
               cafés et salons de thé conceptuels. Du café proposant à ses
               clients une expérience de réalité virtuelleau salon de thé offrant
               des cours de jardinerie, les Toulousains nemanquent pas de choix
-              <span class="textLeft"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                temporibus numquam reiciendis! Optio officiis rerum quae
-                accusamus dolorum assumenda non cumque, dolore nihil deleniti
-                porro, commodi praesentium, consequuntur doloribus maiores!
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatibus cum nam dolor officia quos dolorum commodi ratione
-                velit eius deleniti. Assumenda excepturi facilis debitis
-                perferendis quasi dolores placeat ipsum est Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Error minus consectetur
-                necessitatibus blanditiis, vitae autem harum excepturi veniam
-                facilis explicabo neque voluptatem quibusdam incidunt
-                reiciendis! Asperiores ducimus porro quis excepturi!</span
-              >
+            </p>
+            <p class="textleft">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              temporibus numquam reiciendis! Optio officiis rerum quae accusamus
+              dolorum assumenda non cumque, dolore nihil deleniti porro, commodi
+              praesentium, consequuntur doloribus maiores! Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Voluptatibus cum nam dolor
+              officia quos dolorum commodi ratione velit eius deleniti.
+              Assumenda excepturi facilis debitis perferendis quasi dolores
+              placeat ipsum est Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Error minus consectetur necessitatibus
+              blanditiis, vitae autem harum excepturi veniam facilis explicabo
+              neque voluptatem quibusdam incidunt reiciendis! Asperiores ducimus
+              porro quis excepturi!
             </p>
           </div>
           <div class="AuthorAndDate">
             <em>Erwan | le 1er Mars 2020</em>
           </div>
         </article>
+        <hr class="articleDivision" />
       </a>
-      <hr class="articleDivision" />
+
       <a href="" class="articleLink">
         <article class="Article">
           <h2 class="articleTitle">Le low cost...toujours plus loin !</h2>
@@ -115,28 +120,29 @@
               capitales européennes. A cet effet, les compagnies aériennes ont
               mis en ligne des billets à prix cassé. Cette démarche entre dans
               une stratégie commerciale visant à promouvoir...
-              <span class="textLeft"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                temporibus numquam reiciendis! Optio officiis rerum quae
-                accusamus dolorum assumenda non cumque, dolore nihil deleniti
-                porro, commodi praesentium, consequuntur doloribus maiores!
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatibus cum nam dolor officia quos dolorum commodi ratione
-                velit eius deleniti. Assumenda excepturi facilis debitis
-                perferendis quasi dolores placeat ipsum est Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Error minus consectetur
-                necessitatibus blanditiis, vitae autem harum excepturi veniam
-                facilis explicabo neque voluptatem quibusdam incidunt
-                reiciendis! Asperiores ducimus porro quis excepturi!</span
-              >
+            </p>
+            <p class="textleft">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              temporibus numquam reiciendis! Optio officiis rerum quae accusamus
+              dolorum assumenda non cumque, dolore nihil deleniti porro, commodi
+              praesentium, consequuntur doloribus maiores! Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Voluptatibus cum nam dolor
+              officia quos dolorum commodi ratione velit eius deleniti.
+              Assumenda excepturi facilis debitis perferendis quasi dolores
+              placeat ipsum est Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Error minus consectetur necessitatibus
+              blanditiis, vitae autem harum excepturi veniam facilis explicabo
+              neque voluptatem quibusdam incidunt reiciendis! Asperiores ducimus
+              porro quis excepturi!
             </p>
           </div>
           <div class="AuthorAndDate">
             <em>Erwan | le 1er Mars 2020</em>
           </div>
         </article>
+        <hr class="articleDivision" />
       </a>
-      <hr class="articleDivision" />
+
       <a href="" class="articleLink">
         <article class="Article">
           <h2 class="articleTitle">
@@ -154,28 +160,29 @@
               leur pire chute depuis 2008. Les restrictions, prises en raison de
               la propagation du virus, paralysent l'Economie mondiale et placent
               les investisseurs dans une grande incertitude...
-              <span class="textLeft"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                temporibus numquam reiciendis! Optio officiis rerum quae
-                accusamus dolorum assumenda non cumque, dolore nihil deleniti
-                porro, commodi praesentium, consequuntur doloribus maiores!
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatibus cum nam dolor officia quos dolorum commodi ratione
-                velit eius deleniti. Assumenda excepturi facilis debitis
-                perferendis quasi dolores placeat ipsum est Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Error minus consectetur
-                necessitatibus blanditiis, vitae autem harum excepturi veniam
-                facilis explicabo neque voluptatem quibusdam incidunt
-                reiciendis! Asperiores ducimus porro quis excepturi!</span
-              >
+            </p>
+            <p class="textleft">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              temporibus numquam reiciendis! Optio officiis rerum quae accusamus
+              dolorum assumenda non cumque, dolore nihil deleniti porro, commodi
+              praesentium, consequuntur doloribus maiores! Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Voluptatibus cum nam dolor
+              officia quos dolorum commodi ratione velit eius deleniti.
+              Assumenda excepturi facilis debitis perferendis quasi dolores
+              placeat ipsum est Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Error minus consectetur necessitatibus
+              blanditiis, vitae autem harum excepturi veniam facilis explicabo
+              neque voluptatem quibusdam incidunt reiciendis! Asperiores ducimus
+              porro quis excepturi!
             </p>
           </div>
           <div class="AuthorAndDate">
             <em>Erwan | le 1er Mars 2020</em>
           </div>
         </article>
+        <hr class="articleDivision" />
       </a>
-      <hr class="articleDivision" />
+
       <a href="" class="articleLink">
         <article class="Article" class="articleLink">
           <h2 class="articleTitle">
@@ -195,28 +202,29 @@
               Valentin. le bâtonnier du barreau de toulouse s'est exprimé à ce
               sujet: << Cette lettre a pour but de rappeler l'engagement de
               l'ensemble des avocats...>>
-              <span class="textLeft"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                temporibus numquam reiciendis! Optio officiis rerum quae
-                accusamus dolorum assumenda non cumque, dolore nihil deleniti
-                porro, commodi praesentium, consequuntur doloribus maiores!
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatibus cum nam dolor officia quos dolorum commodi ratione
-                velit eius deleniti. Assumenda excepturi facilis debitis
-                perferendis quasi dolores placeat ipsum est Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Error minus consectetur
-                necessitatibus blanditiis, vitae autem harum excepturi veniam
-                facilis explicabo neque voluptatem quibusdam incidunt
-                reiciendis! Asperiores ducimus porro quis excepturi!</span
-              >
+            </p>
+            <p class="textleft">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              temporibus numquam reiciendis! Optio officiis rerum quae accusamus
+              dolorum assumenda non cumque, dolore nihil deleniti porro, commodi
+              praesentium, consequuntur doloribus maiores! Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Voluptatibus cum nam dolor
+              officia quos dolorum commodi ratione velit eius deleniti.
+              Assumenda excepturi facilis debitis perferendis quasi dolores
+              placeat ipsum est Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Error minus consectetur necessitatibus
+              blanditiis, vitae autem harum excepturi veniam facilis explicabo
+              neque voluptatem quibusdam incidunt reiciendis! Asperiores ducimus
+              porro quis excepturi!
             </p>
           </div>
           <div class="AuthorAndDate">
             <em>Erwan | le 1er Mars 2020</em>
           </div>
         </article>
+        <hr class="articleDivision" />
       </a>
-      <hr class="articleDivision" />
+
       <a href="" class="articleLink">
         <article class="Article">
           <h2 class="articleTitle">
@@ -251,13 +259,28 @@
                 reiciendis! Asperiores ducimus porro quis excepturi!</span
               >
             </p>
+            <p class="textleft">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              temporibus numquam reiciendis! Optio officiis rerum quae accusamus
+              dolorum assumenda non cumque, dolore nihil deleniti porro, commodi
+              praesentium, consequuntur doloribus maiores! Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Voluptatibus cum nam dolor
+              officia quos dolorum commodi ratione velit eius deleniti.
+              Assumenda excepturi facilis debitis perferendis quasi dolores
+              placeat ipsum est Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Error minus consectetur necessitatibus
+              blanditiis, vitae autem harum excepturi veniam facilis explicabo
+              neque voluptatem quibusdam incidunt reiciendis! Asperiores ducimus
+              porro quis excepturi!
+            </p>
           </div>
           <div class="AuthorAndDate">
             <em>Erwan | le 1er Mars 2020</em>
           </div>
         </article>
+        <hr class="articleDivision" />
       </a>
-      <hr class="articleDivision" />
+
       <a href="article.html" class="articleLink">
         <article class="Article">
           <h2 class="articleTitle">
@@ -409,13 +432,13 @@
         <input
           type="text"
           name=""
-          id=""
+          id="title"
           placeholder="Entrez le titre de votre article"
         />
         <label for="Intro">Introduction</label>
         <textarea
           name=""
-          id=""
+          id="introduction"
           cols="100"
           rows="10"
           placeholder="Entrez l'introduction de votre article"
@@ -423,7 +446,7 @@
         <label for="Contenu">Contenu</label>
         <textarea
           name=""
-          id=""
+          id="content"
           cols="100"
           rows="20"
           placeholder="Tapez votre article"
@@ -432,46 +455,55 @@
         <input
           type="text"
           name=""
-          id=""
+          id="image"
           placeholder="Copier l'url de votre image ici"
         />
         <label for="">Votre nom</label>
-        <input type="text" name="" id="" placeholder="Tapez votre nom" />
+        <input type="text" name="" id="author" placeholder="Tapez votre nom" />
         <label for="">Date</label>
-        <input type="text" placeholder="Tapez la date" />
+        <input type="text" id="date" placeholder="Tapez la date" />
         <label for="">Grande Catégorie</label>
-        <select name="" id="">
-          <option value="">Société</option>
-          <option value="">Sport</option>
-          <option value="">Lifestyle</option>
-          <option value="">Voyage</option>
+        <select name="" id="bigCategory">
+          <option value="Société">Société</option>
+          <option value="Sport">Sport</option>
+          <option value="Lifestyle">Lifestyle</option>
+          <option value="Voyage">Voyage</option>
         </select>
         <label for="">Sous Catégorie</label>
-        <select name="" id="">
+        <select name="" id="subCategory">
           <optgroup label="Société">
-            <option value="">Economie</option>
-            <option value="">Education</option>
-            <option value="">Santé</option>
+            <option value="Economie">Economie</option>
+            <option value="Education">Education</option>
+            <option value="Santé">Santé</option>
           </optgroup>
           <optgroup label="Sport">
-            <option value="">Rugby</option>
-            <option value="">Football</option>
-            <option value="">Sport-Outdoor</option>
+            <option value="Rugby">Rugby</option>
+            <option value="Football">Football</option>
+            <option value="Sport-Outdoor">Sport-Outdoor</option>
           </optgroup>
           <optgroup label="Lifestyle">
-            <option value="">Gastronomie</option>
-            <option value="">Représentation culturel</option>
-            <option value="">Mode</option>
+            <option value="Gastronomie">Gastronomie</option>
+            <option value="Représentation culturel"
+              >Représentation culturel</option
+            >
+            <option value="Mode">Mode</option>
           </optgroup>
           <optgroup label="Voyage">
-            <option value="">Bon plan Europe</option>
-            <option value="">Bon plan Amérique</option>
-            <option value="">Bon plan Asie</option>
-            <option value="">Bon plan Afrique</option>
+            <option value="Bon plan Europe">Bon plan Europe</option>
+            <option value="Bon plan Amérique">Bon plan Amérique</option>
+            <option value="Bon plan Asie">Bon plan Asie</option>
+            <option value="Bon plan Afrique">Bon plan Afrique</option>
           </optgroup>
         </select>
         <label for="">Numéro de l'article</label>
-        <input type="number" placeholder="Tapez le numéro de l'article" />
+        <input
+          type="number"
+          id="numArticle"
+          placeholder="Tapez le numéro de l'article"
+        />
+        <button id="bouton-publier" onclick="addToLocalStorage()">
+          Publier
+        </button>
       </fieldset>
     </section>
     <footer class="menu">
@@ -497,5 +529,6 @@
         </a>
       </div>
     </footer>
+    <script src="scriptBO.js"></script>
   </body>
 </html>
