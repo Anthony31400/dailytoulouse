@@ -46,7 +46,7 @@
         </div>
       </nav>
     </header>
-    <section class="feed">
+    <section class="contactPage">
         <div class="presentation">
           <h2 class="articleTitle">Qui sommes-nous?</h2>
           <article class="presentation-team">  
@@ -71,27 +71,30 @@
           </article>
         </div>
         <hr class="hr">
+        <br />
         <div class="contact">
           <h2 class="articleTitle">Nous contacter</h2>
           <p class="textArticle">Vous venez d'ouvrir votre enseigne ou vous voulez promouvoir votre activité sur Toulouse et sa région ?</p>
-          <p class="textArticle">Vous voulez nous rejoindre ? ça tombe bien on embauche des bénévoles !</p>
+          <p class="textArticle">Vous voulez nous rejoindre ? Ca tombe bien nous embauchons des bénévoles !</p>
           <p class="textArticle">Un simple avis ou commentaire ?</p>
           <p class="textArticle">Contactez nous !</p>
         </div>
-        <form action="" method="get" class="form-container">
+        <form action="" method="get" class="form-container" id="myForm">
           <div class="form-contact">
             <label for="name">Name :</label>
             <input class="inputsize" type="text" name="name" id="name" required>
+            <span class="tooltip">Un nom ne peut faire moins de 2 caractères.</span>
           </div>
           <div class="form-contact">
             <label for="emailinput">Email :</label>
             <input class="inputsize" type="text" name="email" id="emailinput" placeholder="      @gmail.com" required>
           </div>
           <div class="message">
-            <textarea name="Votre message" id="message" cols="50" rows="10" placeholder="Dites nous."></textarea>
+            <textarea name="votreMessage" id="votreMessage" cols="50" rows="10" placeholder="Dites nous."></textarea>
           </div>
           <div class="send-button">
             <input id="submit" type="submit" value="Envoyer">
+            <span class="tooltip">Merci d'être un peu plus précis sur votre demande.</span>
           </div>
         </form>
       </div>
@@ -226,5 +229,6 @@
         </a>
       </div>
     </footer>
+    <script src="featureJScontact.js" ></script>
   </body>
 </html>
