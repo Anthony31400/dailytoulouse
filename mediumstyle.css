@@ -109,9 +109,8 @@
   }
   /*Style Contact page*/
 
-  .presentation .contact {
+  .contactPage {
     grid-column-start: 2;
-    grid-row-start: 3;
-    grid-row-end: span 2;
+    grid-row-start: 1;
   }
 }

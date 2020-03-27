@@ -117,6 +117,7 @@ i {
   color: white;
 }
 /*style caroussel*/
+
 /*Style feed*/
 .feed {
   width: 100%;
@@ -257,6 +258,11 @@ footer {
 
 /*Style Contact page*/
 
+.contactPage {
+  width: 100%;
+  margin-top: 120px;
+}
+
 .hr {
   border: 0;
   height: 0;
@@ -265,6 +271,7 @@ footer {
 
 .presentation-team {
   margin: 20px;
+  margin-bottom: 50px;
 }
 
 .contact {
