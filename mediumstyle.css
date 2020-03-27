@@ -28,6 +28,32 @@
   .titrepagesmall {
     display: none;
   }
+  .timer {
+    margin-top:100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    box-shadow:  rgba(0, 0, 0, 0.2);
+    width: 100%;
+    z-index: 98;
+   ;
+  }
+  #horloge{
+  text-align: center;
+  margin: 8px;
+  
+  }
+  #dateFr{
+    margin-left: 37%;
+  }
   .feed {
     display: block;
     grid-column-start: 2;
