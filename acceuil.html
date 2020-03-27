@@ -50,7 +50,7 @@
       <template id="article-template">
         <a href="" class="articleLink">
           <article class="Article">
-            <h2 class="ArticleTitle"></h2>
+            <h2 class="articleTitle"></h2>
             <div class="contentImgAndTextArticle">
               <img src="" alt="" class="imgArticle" />
               <p class="textArticle"></p>
@@ -65,7 +65,12 @@
       </template>
     </section>
     <section class="feed" id="parentElement">
-      <a href="" class="articleLink">
+      <a
+        href=""
+        class="articleLink"
+        data-big-category="Lifestyle"
+        data-sub-category="Gastronomie"
+      >
         <article class="Article">
           <h2 class="articleTitle">
             De nouveaux cafés et salons de thés insolites à Toulouse
@@ -104,7 +109,12 @@
         <hr class="articleDivision" />
       </a>
 
-      <a href="" class="articleLink">
+      <a
+        href=""
+        class="articleLink"
+        data-big-category="Voyage"
+        data-sub-category="Bon-plan-Europe"
+      >
         <article class="Article">
           <h2 class="articleTitle">Le low cost...toujours plus loin !</h2>
           <div class="contentImgAndTextArticle">
@@ -143,7 +153,12 @@
         <hr class="articleDivision" />
       </a>
 
-      <a href="" class="articleLink">
+      <a
+        href=""
+        class="articleLink"
+        data-big-category="Société"
+        data-sub-category="Economie"
+      >
         <article class="Article">
           <h2 class="articleTitle">
             CORONAVIRUS: le monde au bord de la crise financière
@@ -183,7 +198,12 @@
         <hr class="articleDivision" />
       </a>
 
-      <a href="" class="articleLink">
+      <a
+        href=""
+        class="articleLink"
+        data-big-category="Société"
+        data-sub-category="Justice"
+      >
         <article class="Article" class="articleLink">
           <h2 class="articleTitle">
             Saint Valentin: La lettre d'amour des avocats à l'attention de la
@@ -225,7 +245,12 @@
         <hr class="articleDivision" />
       </a>
 
-      <a href="" class="articleLink">
+      <a
+        href=""
+        class="articleLink"
+        data-big-category="Sport"
+        data-sub-category="Rugby"
+      >
         <article class="Article">
           <h2 class="articleTitle">
             Tournoi des six nations 2020: un succès en demi teinte pour le XV de
@@ -281,7 +306,12 @@
         <hr class="articleDivision" />
       </a>
 
-      <a href="article.html" class="articleLink">
+      <a
+        href="article.html"
+        class="articleLink"
+        data-big-category="Société"
+        data-sub-category="Economie"
+      >
         <article class="Article">
           <h2 class="articleTitle">
             Développer son patrimoine financier grâce à l’immobilier
@@ -325,81 +355,76 @@
       <ul class="menu">
         <li><a href="" class="grostitre">A la une</a></li>
         <li>
-          <a href="#sous-titre-societe" class="grostitre" id="titreSociete"
-            >Société</a
-          >
+          <a class="grostitre" id="titreSociete">Société</a>
           <ul class="sous-titre" id="sous-titre-societe">
             <li>
-              <a href=".reelsouspart.html">Economie</a>
+              <a id="sous-titre-economie">Economie</a>
+              >
             </li>
             <li>
-              <a href="">Education</a>
+              <a id="sous-titre-education">Education</a>
             </li>
             <li>
-              <a href="">Santé</a>
+              <a id="sous-titre-sante">Santé</a>
             </li>
             <li>
-              <a href="">Justice</a>
+              <a id="sous-titre-justice">Justice</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="#sous-titre-sport" class="grostitre" id="titreSport"
-            >Sport</a
-          >
+          <a class="grostitre" id="titreSport">Sport</a>
           <ul class="sous-titre" id="sous-titre-sport">
             <li>
-              <a href="">Rugby</a>
+              <a id="sous-titre-rugby">Rugby</a>
             </li>
             <li>
-              <a href="">Football</a>
+              <a id="sous-titre-football">Football</a>
             </li>
             <li>
-              <a href="">Sport-Outdoor</a>
+              <a id="sous-titre-sport-outdoor">Sport-Outdoor</a>
             </li>
             <li>
-              <a href="">Sport-Urbain</a>
+              <a id="sous-titre-sport-urbain">Sport-Urbain</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="#sous-titre-lifestyle" class="grostitre" id="titreLifestyle"
-            >Lifestyle</a
-          >
+          <a class="grostitre" id="titreLifestyle">Lifestyle</a>
           <ul class="sous-titre" id="sous-titre-lifestyle">
             <li>
-              <a href="">Gastronomie</a>
+              <a id="sous-titre-gastronomie">Gastronomie</a>
             </li>
             <li>
-              <a href="">Représentation culturel</a>
+              <a id="sous-titre-representation-culturel"
+                >Représentation culturel</a
+              >
             </li>
             <li>
-              <a href="">Mode</a>
+              <a id="sous-titre-mode">Mode</a>
             </li>
             <li>
-              <a href="">Evènement</a>
+              <a id="sous-titre-evenement">Evènement</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="#sous-titre-voyage" class="grostitre" id="titreVoyage"
-            >Voyage</a
-          >
+          <a class="grostitre" id="titreVoyage">Voyage</a>
           <ul class="sous-titre" id="sous-titre-voyage">
             <li>
-              <a href="">Bon plan Europe</a>
+              <a id="sous-titre-bon-plan-europe">Bon plan Europe</a>
             </li>
             <li>
-              <a href="">Bon plan Amérique</a>
+              <a id="sous-titre-bon-plan-amerique">Bon plan Amérique</a>
             </li>
             <li>
-              <a href="">Bon plan Asie</a>
+              <a id="sous-titre-bon-plan-asie">Bon plan Asie</a>
             </li>
             <li>
-              <a href="">Bon plan Afrique</a>
+              <a id="sous-titre-bon-plan-afrique">Bon plan Afrique</a>
             </li>
             <li>
-              <a href="">Bon plan Océanie</a>
+              <a id="sous-titre-bon-plan-oceanie">Bon plan Océanie</a>
             </li>
           </ul>
         </li>
@@ -475,24 +500,28 @@
             <option value="Economie">Economie</option>
             <option value="Education">Education</option>
             <option value="Santé">Santé</option>
+            <option value="Justice">Justice</option>
           </optgroup>
           <optgroup label="Sport">
             <option value="Rugby">Rugby</option>
             <option value="Football">Football</option>
             <option value="Sport-Outdoor">Sport-Outdoor</option>
+            <option value="Sport-Urbain">Sport-Urbain</option>
           </optgroup>
           <optgroup label="Lifestyle">
             <option value="Gastronomie">Gastronomie</option>
-            <option value="Représentation culturel"
+            <option value="Representation-culturel"
               >Représentation culturel</option
             >
             <option value="Mode">Mode</option>
+            <option value="Evènment">Evènement</option>
           </optgroup>
           <optgroup label="Voyage">
-            <option value="Bon plan Europe">Bon plan Europe</option>
-            <option value="Bon plan Amérique">Bon plan Amérique</option>
-            <option value="Bon plan Asie">Bon plan Asie</option>
-            <option value="Bon plan Afrique">Bon plan Afrique</option>
+            <option value="Bon-plan-Europe">Bon plan Europe</option>
+            <option value="Bon-plan-Amerique">Bon plan Amérique</option>
+            <option value="Bon-plan-Asie">Bon plan Asie</option>
+            <option value="Bon-plan-Afrique">Bon plan Afrique</option>
+            <option value="Bon-plan-Oceanie">Bon plan Océanie</option>
           </optgroup>
         </select>
         <label for="">Numéro de l'article</label>
@@ -530,5 +559,6 @@
       </div>
     </footer>
     <script src="scriptBO.js"></script>
+    <script src="filter.js"></script>
   </body>
 </html>

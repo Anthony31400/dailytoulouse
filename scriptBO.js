@@ -51,7 +51,7 @@ function publication() {
   const parentDiv = document.getElementById("parentElement");
   const article = template.content.cloneNode(true);
 
-  article.querySelector(".ArticleTitle").textContent = articleData.title;
+  article.querySelector(".articleTitle").textContent = articleData.title;
   article.querySelector(".textArticle").textContent = articleData.introduction;
   article.querySelector(".textleft").textContent = articleData.content;
   article.querySelector(
@@ -94,7 +94,7 @@ function loadLocalStorage() {
     const parentDiv = document.getElementById("parentElement");
     const article = template.content.cloneNode(true);
 
-    article.querySelector(".ArticleTitle").textContent = articleData.title;
+    article.querySelector(".articleTitle").textContent = articleData.title;
     article.querySelector(".textArticle").textContent =
       articleData.introduction;
     //article.querySelector(".textleft").textContent = articleData.content;
