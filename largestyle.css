@@ -41,7 +41,7 @@
   }
   .backOffice {
     display: flex;
-    width: 100%;
+    width: 75%;
     flex-direction: column;
 
     grid-column-start: 3;
@@ -50,6 +50,9 @@
   }
   .champs {
     text-align: center;
+  }
+  .champs input {
+    width: 50%;
   }
   label {
     margin-top: 20px;

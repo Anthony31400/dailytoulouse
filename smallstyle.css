@@ -405,7 +405,7 @@ footer {
 }
 
 .inputsize {
-  width: 50%;
+  width: 20%;
 }
 
 label,
@@ -419,6 +419,7 @@ textarea {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px #999;
+  margin-top: 15px;
 }
 
 label {
