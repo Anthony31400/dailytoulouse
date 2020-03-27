@@ -59,7 +59,7 @@ function publication() {
   ).textContent = `${articleData.author} | ${articleData.date}`;
   article.querySelector(".imgArticle").setAttribute("src", articleData.image);
   article
-    .querySelector("article")
+    .querySelector(".articleLink")
     .setAttribute("id", `Article${articleData.numArticle}`);
   article
     .querySelector(`#Article${articleData.numArticle}`)
@@ -103,7 +103,7 @@ function loadLocalStorage() {
     ).textContent = `${articleData.author} | ${articleData.date}`;
     article.querySelector(".imgArticle").setAttribute("src", articleData.image);
     article
-      .querySelector("article")
+      .querySelector(".articleLink")
       .setAttribute("id", `Article${articleData.numArticle}`);
     article
       .querySelector(`#Article${articleData.numArticle}`)
