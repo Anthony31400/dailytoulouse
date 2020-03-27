@@ -91,6 +91,129 @@ i {
   margin-left: 30px;
   border-radius: 40px;
 }
+
+[data-modal-target="#modal"] {
+  background: none;
+  border: none;
+}
+
+   /*styling profil info modal window*/
+   .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 10;
+  }
+
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1); 
+    border: 0px;
+  }
+
+  .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+
+  /*styling profil info card*/
+  .card-container{
+    width: 300px;
+    height: 430px;
+    background: #FFF;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .upper-container{
+    height: 150px;
+    background: #a50767;
+  }
+  .image-container{
+    background: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(100px,100px);
+  }
+  .image-container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .lower-container{
+    height: 280px;
+    background: #FFF;
+    padding: 20px;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .lower-container h3, h4{
+    box-sizing: border-box;
+    line-height: .6;
+    font-weight: lighter;
+    padding-top: 5px;
+  }
+  .lower-container h4{
+    color: #a50767;
+    opacity: .6;
+    font-weight: bold;
+  }
+  .lower-container p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+    padding-top: 10px;
+  }
+  .lower-container .btn{
+    padding: 12px 20px;
+    background: #a50767;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+  }
+  .lower-container .btn:hover{
+    background: transparent;
+    color: #a50767;
+    border: 2px solid #a50767;
+  }
+  
+
+
+
 /*style navbar*/
 /*style caroussel*/
 /*
