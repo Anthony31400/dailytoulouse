@@ -1,4 +1,4 @@
-# dailytoulouse
+# DailyToulouse
 https://cocky-keller-218d88.netlify.app/
 
 # Projet de formation :
