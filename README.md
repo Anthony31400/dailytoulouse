@@ -2,8 +2,9 @@
 https://cocky-keller-218d88.netlify.app/
 
 # Projet de formation :
-
-# Sujet : création de blog
+  1er projet à la Wild Code School
+# Sujet :
+  Création de blog
 # Objectif : 
   -Approfondissement des connaissances HTML/CSS
   -Découverte du JavaScript
