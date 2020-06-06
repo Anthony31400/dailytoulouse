@@ -1,5 +1,5 @@
 # DailyToulouse
-https://cocky-keller-218d88.netlify.app/
+https://daily-toulouse.netlify.app
 
 # Projet de formation :
   1er projet à la Wild Code School
